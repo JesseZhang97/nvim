@@ -37,9 +37,9 @@ return {
           enable = true,
           keymaps = {
             init_selection = '<TAB>',
-            node_incremental = 'v',
+            node_incremental = '<TAB>',
             scope_incremental = false,
-            node_decremental = 'V',
+            node_decremental = '<S-TAB>',
           },
         },
       }
