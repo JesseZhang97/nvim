@@ -32,7 +32,7 @@ keymap('n', 'N', 'Nzz', opts)
 keymap('x', '<leader>p', '"_dp', opts)
 
 -- Cancel highlight
-keymap('n', '<leader>nh', '<CMD>nohl<CR>', opts)
+keymap('n', '<space>nh', '<CMD>nohl<CR>', opts)
 
 -- Quickly save the current buffer or all buffers
 keymap('n', '<leader>w', '<CMD>update<CR>', opts)

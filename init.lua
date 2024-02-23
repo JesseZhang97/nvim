@@ -11,6 +11,13 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require 'base'
-require 'keymaps'
-require('lazy').setup 'plugins'
+if vim.g.vscode then
+  -- VSCode extension
+  require 'base'
+  require 'keymaps'
+else
+  -- ordinary Neovim
+  require 'base'
+  require 'keymaps'
+  require('lazy').setup 'plugins'
+end

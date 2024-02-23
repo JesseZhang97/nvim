@@ -22,6 +22,7 @@ return {
         'stylua',
         'eslint_d',
         'prettierd',
+        'tailwindcss-language-server',
       },
     }
   end,

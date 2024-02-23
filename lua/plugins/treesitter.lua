@@ -19,6 +19,7 @@ return {
           'css',
           'json',
           'regex',
+          'vue',
         },
 
         sync_install = false,

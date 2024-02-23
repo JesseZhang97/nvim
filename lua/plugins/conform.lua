@@ -11,6 +11,7 @@ return {
       html = { 'prettierd' },
       json = { 'prettierd' },
       yaml = { 'prettierd' },
+      vue = { 'prettierd' },
     },
     format_on_save = {
       pattern = '*.lua',

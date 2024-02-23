@@ -25,7 +25,7 @@ return {
         vim.bo[ev.buf].omnifunc = 'v:lua.vim.lsp.omnifunc'
 
         local opts = { buffer = ev.buf }
-        vim.keymap.set('n', 'gd', '<cmd>Lspsaga goto_definition<cr>', opts)
+        vim.keymap.set('n', 'gd', '<cmd>Lspsaga peek_definition<cr>', opts)
         vim.keymap.set('n', '<space>r', vim.lsp.buf.rename, opts)
         vim.keymap.set({ 'n', 'v' }, '<space>ca', '<cmd>Lspsaga code_action<cr>', opts)
         vim.keymap.set('n', 'gr', builtin.lsp_references, opts)
